@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>EmailTemplate Zaphere</title>
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+.ExternalClass {
+	width: 100%;
+}
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #3E7399 !important;
+            border-color: #3E7399 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+            .stack-column-hero {
+              padding-left: 20px !important;
+            }
+            .stack-column-hero>table {
+              float: none !important;
+              width: 100% !important;
+            }
+            .stack-column-hero>table tr td {
+              text-align: left !important;
+            }
+            .stack-column-hero .deserve_better {
+              font-size: 19px !important;
+            }
+            .stack-column-hero .order_delivered {
+              font-size: 26px !important;
+            }
+            .three_col_steps {
+                padding: 35px 0 15px 0 !important;
+            }
+            .three_col_steps .stack-column-center {
+              display: table-cell !important;
+              width: auto !important;
+              max-width: none !important;
+              text-align: center !important;
+            }
+            .three_col_steps .stack-column-center img {
+              width: 63% !important;
+            }
+            .three_col_steps .stack-column-center {
+              padding-bottom: 26px !important;
+            }
+            .three_col_steps td {
+              font-size: 15px !important;
+            }
+            .three_col_steps td br {
+              display: none !important;
+            }
+            .disclaimer_section {
+                  padding: 30px !important;
+            }
+            .stack-column-sign-up {
+              padding-top: 20px !important;
+            }
+            .stack-column-center td {
+              text-align: center !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#f0f0f0" width="100%" style="margin: 0;" yahoo="yahoo">
+    <table bgcolor="#f0f0f0" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td><center style="padding: 20px 0; width: 100%;">
+            
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container" style="border: 1px solid #f1f1f1;">
+
+              <!-- Background Image with Text : BEGIN -->
+            <tr>
+                <td background="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/cold-header-img-bg.png" width="600" height="393" bgcolor="#f3f3f3" valign="middle" style="text-align: center; background-position: center center !important; background-size: cover !important;"><!--[if gte mso 9]>
+                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:175px; background-position: center center !important;">
+                    <v:fill type="tile" src="assets/Responsive/Image_600x230.png" color="#222222" />
+                    <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+                
+                <div>
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td class="stack-column-center stack-column-hero" valign="middle" style="font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 1em; color: #ffffff; width: 100%;padding-left: 50px;"> 
+
+                          <table width="226" cellspacing="0" cellpadding="0" border="0" style="float: left;">
+                            <tbody>
+                              <tr>
+                                <td dir="ltr" style="text-align: left;">
+                                  <img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/bw-Zaphere-logo%402x.png" width="145" height="47" alt="alt_text" border="0" class="fluid">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="order_delivered" style="font-family: sans-serif; font-size: 22px; mso-height-rule: exactly; line-height: 1.3em; color: #000000; text-align: left; padding: 18px 0"> <strong style="color: #000000;"> <strong>ORDER DELIVERED <br> IN DAYS?</strong> </td>
+                              </tr>
+                              <tr>
+                                <td class="deserve_better" style="font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 1.4em; color: #000000; text-align: left;"> <strong>You deserve better.</strong> Online <br> Shopping is now faster! </td>
+                              </tr>
+
+                              <tr>
+                                <td style="mso-height-rule: exactly; line-height: 1em; text-align: left; padding-top: 25px;">
+                                  <a href="https://www.google.com.ph/" style="display: inline-block;overflow: hidden;">
+                                    <img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/googleplay.png" width="95" height="34" alt="alt_text">
+                                  </a>
+                                  <a href="https://www.google.com.ph/" style="display: inline-block;overflow: hidden;">
+                                    <img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/appstore.png" width="115" height="34" alt="alt_text">
+                                  </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                         </td>
+                      </tr>
+                    </table>
+                  </div>
+                
+                <!--[if gte mso 9]>
+                    </v:textbox>
+                    </v:rect>
+                    <![endif]--></td>
+              </tr>
+            <!-- Background Image with Text : END --> 
+
+            <!-- Three Even Columns : BEGIN -->
+            <tr>
+                <td align="center" valign="top" class="three_col_steps" style="padding: 50px 40px;">
+                  <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tbody style="vertical-align: top;">
+                      <tr>
+                        <td width="33.33%" class="stack-column-center">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td style="text-align: center"><img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/browse-icon%402x.png" width="113" height="113" alt="alt_text" border="0" class="fluid"></td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: sans-serif; font-size: 13px; padding: 25px 0 13px 0; mso-height-rule: exactly; line-height: 1.3em; color: #6A6A6A; text-align: center;" class="center-on-narrow"> <strong>1. BROWSE</strong> </td>
+                            </tr>
+
+                            <tr>
+                              <td style="font-family: sans-serif; font-size: 13px; padding: 0 8px; mso-height-rule: exactly; line-height: 1.3em; color: #6A6A6A; text-align: center;" class="center-on-narrow">Look for the items <br> you need.</td>
+                            </tr>
+                          </table>
+                        </td>
+
+                        <td width="33.33%" class="stack-column-center">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td style="text-align: center"><img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/order-icon%402x.png" width="113" height="113" alt="alt_text" border="0" class="fluid"></td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: sans-serif; font-size: 13px; padding: 25px 0 13px 0; mso-height-rule: exactly; line-height: 1.3em; color: #6A6A6A; text-align: center;" class="center-on-narrow"> <strong>2. ORDER </strong> </td>
+                            </tr>
+
+                            <tr>
+                              <td style="font-family: sans-serif; font-size: 13px; padding: 0 8px; mso-height-rule: exactly; line-height: 1.3em; color: #6A6A6A; text-align: center;" class="center-on-narrow">Count hours -<br> not days!</td>
+                            </tr>
+                          </table>
+                        </td>
+
+                        <td width="33.33%" class="stack-column-center">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td style="text-align: center"><img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/receive-icon%402x.png" width="113" height="113" alt="alt_text" border="0" class="fluid"></td>
+                            </tr>
+                            <tr>
+                              <td style="font-family: sans-serif; font-size: 13px; padding: 25px 0 13px 0; mso-height-rule: exactly; line-height: 1.3em; color: #6A6A6A; text-align: center;" class="center-on-narrow"> <strong>3. RECEIVE </strong> </td>
+                            </tr>
+
+                            <tr>
+                              <td style="font-family: sans-serif; font-size: 13px; padding: 0 8px; mso-height-rule: exactly; line-height: 1.3em; color: #6A6A6A; text-align: center;" class="center-on-narrow">Hassle-free payment <br> with COD.</td>
+                            </tr>
+                          </table>
+                        </td>
+                      
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            <!-- Three Even Columns : END --> 
+            
+            <!-- Thumbnail Right, Text Left : BEGIN -->
+            <tr>
+              <td class="disclaimer_section" align="center" valign="top" width="100%" style="background-color: #F8F8F8; padding: 60px 50px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="66.66%" class="stack-column-center">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td dir="ltr" valign="top" style="font-family: sans-serif; font-size: 16px; mso-height-rule: exactly; line-height: 1.4em; color: #6A6A6A; text-align: left;" class="center-on-narrow">
+                            CHECK US OUT AND <br> <div style="display: inline-block;color: #000000;font-weight: bold">CLAIM YOUR</div> <strong style="font-size: 20px;color: #000000;">P200 OFF!</strong>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <td width="33.33%" class="stack-column-center stack-column-sign-up">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                        
+                          <td dir="ltr" valign="top">
+                              <table cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:right;">
+                              <tr>
+                                  <td style="border-radius: 30px; background: #000000; text-align: center; height: 44px; display: block; overflow: hidden;" class="button-td">
+
+                                    <a href="http://www.google.com" style="background: #000000; border: 15px solid #000000; padding: 0 20px; height: 44px; color: #ffffff; font-family: sans-serif; font-size: 13px; line-height: 1em; text-align: center; text-decoration: none; display: table-cell; border-radius: 30px; font-weight: bold; box-sizing: border-box;" class="button-a"> 
+                                    <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->CLAIM NOW<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
+                                    </a></td>
+                                </tr>
+                            </table>
+                            <!-- Button : END -->
+                          </td>
+
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- Thumbnail Right, Text Left : END -->
+
+            <!-- Thumbnail Right, Text Left : BEGIN -->
+            <tr>
+              <td align="center" valign="top" width="100%" style="background-color: #ffffff; padding: 30px 50px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td class="stack-column-center">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td style="mso-height-rule: exactly; line-height: 1em; text-align: left; padding: 10px 0;">
+                            <a href="https://www.google.com.ph/" style="display: inline-block; width: 30px; height: 25px; text-align: left; overflow: hidden;">
+                              <img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/icon-bw-inst.png" width="16" height="16" alt="alt_text">
+                            </a>
+                            <a href="https://www.google.com.ph/" style="display: inline-block; width: 30px; height: 25px; text-align: left; overflow: hidden;">
+                              <img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/icon-bw-twitter.png" width="16" height="16" alt="alt_text">
+                            </a>
+                            <a href="https://www.google.com.ph/" style="display: inline-block; width: 30px; height: 25px; text-align: left; overflow: hidden;">
+                              <img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/icon-bw-fb.png" width="16" height="16" alt="alt_text">
+                            </a>
+                            <a href="https://www.google.com.ph/" style="display: inline-block; width: 30px; height: 25px; text-align: left; overflow: hidden;">
+                              <img src="https://cdn.rawgit.com/christianemmanuel/zaphere-1/gh-pages/icon-bw-lk.png" width="16" height="16" alt="alt_text">
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td dir="ltr" valign="top" style="font-family: sans-serif; font-size: 13px; mso-height-rule: exactly; line-height: 1.65em; color: #6A6A6A; text-align: left;" class="center-on-narrow">
+                           <strong>Need Help?</strong> <br> Send an email to <a href="mailto:hello@zaphere.com.ph" style="color: #6A6A6A; text-decoration: none;">hello@zaphere.com.ph</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td dir="ltr" valign="top" style="font-family: sans-serif; font-size: 13px; font-weight: 300; padding-top: 10px; mso-height-rule: exactly; line-height: 1.65em; color: #8B8B8B; text-align: left;" class="center-on-narrow">
+                           <a href="https://www.google.com.ph/" style="color: #8B8B8B;">unsubscribe</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- Thumbnail Right, Text Left : END -->
+            
+          </table>
+            <!-- Email Body : END --> 
+            
+          </center></td>
+      </tr>
+    </table>
+</body>
+</html>
